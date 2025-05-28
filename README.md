@@ -1,7 +1,11 @@
 # React + Vite
 Deployment
 The app is deployed on GitHub Pages:
-- https://Anushka-Mandal.github.io/cake-order-website
+A responsive web application built with React and Vite that allows users to browse and order cakes online.
+
+-https://Anushka-Mandal.github.io/cake-order-website
+
+  
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
@@ -20,17 +24,16 @@ A responsive web application built with React and Vite that allows users to brow
 - ReactDOM  
 - Vite  
 - CSS (or your preferred styling method)  
-- (Any backend if used, e.g., Node.js, Express)  
+- MongoDB , expressJs and nodeJs
 
 ## Installation
 
 1. **Clone the repository:**
+```
+git clone https://github.com/Anushka-Mandal/cake-order-website.git
+```
 
-   ```bash
-   git clone https://github.com/Anushka-Mandal/cake-order-website.git
 Navigate to the project folder:
-
-bash
 ```
 cd cake-order-website
 ```
@@ -39,27 +42,30 @@ Install dependencies including React, ReactDOM, and Vite:
 
 If you’re starting fresh (creating a new project), run:
 
-bash
-Copy
-Edit
+```
 npm create vite@latest
+```
+
 Follow the prompts to select the React template and project name.
 Then navigate into the project folder and install React and ReactDOM:
 
-bash
-Copy
-Edit
+```
 cd your-project-name
 npm install react react-dom
+```
+
 If the project is already set up (your case), just run:
 
-bash```
+```
 npm install
-Run the development server:```
+```
+Run the development server:
 
-bash
-```npm run dev
-Open the app in your browser:```
+```
+npm run dev
+```
+
+Open the app in your browser:
 
 Visit http://localhost:5173
 
